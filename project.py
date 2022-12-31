@@ -102,7 +102,7 @@ def prompt_user_action():
         2: {"description": "Rename song", "func": rename_song},
         3: {"description": "Print lyrics", "func": print_lyrics},
         4: {"description": "Add song lyrics", "func": add_song_lyrics},
-        5: {"description": "Summarize lyric themes", "func": summarize_lyrics},
+        5: {"description": "Summarize lyric themes", "func": get_summarize_lyrics},
         6: {
             "description": "Get visual description inspired by lyrics",
             "func": visual_description,
@@ -182,7 +182,7 @@ def create_song_art(s, *args):
     return {"song": s}
 
 
-def summarize_lyrics(s):
+def get_summarize_lyrics(s):
     print("You have two options for lyric summary: 'sm' or 'lg'")
     while True:
         try:
