@@ -1,6 +1,7 @@
 # MUSICIAN'S AI TOOLKIT
+### Alexander Boneham
 
-#### Video Demo: <URL HERE>
+#### Video Demo: https://youtu.be/30OGvLXJj4I
 
 #### Description:
 
