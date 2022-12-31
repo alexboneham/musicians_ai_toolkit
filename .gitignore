@@ -1,0 +1,13 @@
+# Environment directories
+/env
+.env
+
+# Debug configs
+.vscode/
+
+# Pytest files
+__pycache__
+.pytest_cache
+
+# Mypy files
+.mypy_cache
